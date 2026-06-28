@@ -1,0 +1,444 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBAR (top one) */
+.navbar {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* SECOND NAV */
+.sub-navbar {
+    background-color: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.sub-navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* HEADER SECTION */
+.header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* CONTENT */
+.container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CARD BOXES */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* TABLE */
+.table-section {
+    padding: 30px;
+}
+
+.table-title {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #2c5364;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* FOOTER */
+.footer {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+/* ACADEMIC PAGE SPECIFIC */
+
+.page-header {
+    background-color: #074173;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #074173;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CONTACT PAGE */
+
+.page-header {
+    background-color: #074173;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* FORM STYLING */
+form {
+    max-width: 600px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #187bcd;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #074173;
+    padding: 10px;
+    text-align: center;
+}
+
+/* GLOBAL RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBARS */
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.sub-navbar {
+    background-color: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.sub-navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c6ff;
+    color: black;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    color: white;
+}
+
+.courses-header {
+    background: #2c5364;
+}
+
+.students-header {
+    background: #203a43;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* CONTACT */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    background: #00c6ff;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+/* NEWSLETTER PAGE */
+
+.page-header {
+    background: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar {
+    background: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* NEWS ITEMS */
+.news-item {
+    margin: 10px 0;
+}
+
+/* SUBSCRIBE FORM */
+.subscribe-form {
+    max-width: 500px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background: #1e90ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background: #187bcd;
+}
+
+/* FOOTER */
+.footer {
+    background: #074173;
+    padding: 10px;
+    text-align: center;
+}
+
+/* PORTAL PAGE */
+
+.page-header {
+    background: #074173;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background: #074173;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* LOGIN FORM */
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #187bcd;
+}
+
+/* FEATURES LIST */
+.features {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.features li {
+    margin: 5px 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #074173;
+    padding: 10px;
+    text-align: center;
+}
