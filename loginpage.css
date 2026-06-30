@@ -20,6 +20,17 @@
     height: 35px;
     width: 20;
     font-size: 15px;
+    text-decoration: none;
+}
+
+.button-container{
+    color: gold;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .container-fluid{
@@ -37,4 +48,3 @@
 .text{
     color: gold;
 }
-
